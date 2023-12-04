@@ -1,0 +1,302 @@
+.HOMEPAGE {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; /* Mudança para coluna para empilhar os elementos */
+  align-items: center; /* Centralizar os elementos horizontalmente */
+  min-height: 100vh; /* Pelo menos 100% da altura da viewport */
+}
+
+.HOMEPAGE .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%; /* Usar 100% da largura disponível */
+  height: 100vh; /* 100% da altura da viewport */
+}
+
+.HOMEPAGE .overlap-group {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Usar 100% da largura disponível */
+  height: 100vh; /* 100% da altura da viewport */
+}
+
+.HOMEPAGE .abstract-empty {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 95px;
+  object-fit: cover;
+}
+
+.HOMEPAGE .bg {
+  position: absolute;
+  width: 1920px;
+  height: 773px;
+  top: 237px;
+  left: 95px;
+  object-fit: cover;
+}
+
+.HOMEPAGE .rectangle {
+  position: absolute;
+  width: 2110px;
+  height: 92px;
+  top: 41px;
+  left: 0;
+  background-color: #ff85a1;
+  box-shadow: 0px 4px 16px #ff011f40;
+}
+
+.HOMEPAGE .line {
+  top: 151px;
+  position: absolute;
+  width: 1920px;
+  height: 3px;
+  left: 95px;
+}
+
+.HOMEPAGE .img {
+  top: 229px;
+  position: absolute;
+  width: 1920px;
+  height: 3px;
+  left: 95px;
+}
+
+.HOMEPAGE .logo {
+  left: 1009px;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  top: 41px;
+}
+
+.HOMEPAGE .div {
+  left: 1898px;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  top: 41px;
+}
+
+.HOMEPAGE .logo-2 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 150px;
+  left: 112px;
+}
+
+.HOMEPAGE .SOBRE {
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  top: 170px;
+  left: 1151px;
+}
+
+.HOMEPAGE .SHOP {
+  position: absolute;
+  width: 94px;
+  height: 40px;
+  top: 170px;
+  left: 1326px;
+}
+
+.HOMEPAGE .EMPRESA {
+  position: absolute;
+  width: 206px;
+  height: 45px;
+  top: 170px;
+  left: 1475px;
+}
+
+.HOMEPAGE .text-wrapper {
+  position: absolute;
+  top: 41px;
+  left: 1084px;
+  font-family: "Abril Fatface", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HOMEPAGE .search {
+  position: absolute;
+  width: 4vw; /* Largura em relação à largura da viewport */
+  height: 4vw; /* Altura em relação à largura da viewport */
+  top: 15vw; /* Posicionamento em relação à largura da viewport */
+  left: 88vw; /* Posicionamento em relação à largura da viewport */
+}
+
+.HOMEPAGE .text-wrapper-2 {
+  position: absolute;
+  top: 291px;
+  left: 174px;
+  text-shadow: 3.75px 6.25px 20.01px #ff004d4c;
+  font-family: "Aladin", Helvetica;
+  font-weight: 400;
+  color: #ff004d;
+  font-size: 200.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HOMEPAGE .text-wrapper-3 {
+  position: absolute;
+  top: 459px;
+  left: 234px;
+  text-shadow: 3.75px 6.25px 20.01px #ff004d4c;
+  font-family: "Aladin", Helvetica;
+  font-weight: 400;
+  color: #ff004d;
+  font-size: 200.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HOMEPAGE .rectangle-2 {
+  position: absolute;
+  width: 749px;
+  height: 107px;
+  top: 744px;
+  left: 28px;
+  background-color: #ffffff99;
+  border-radius: 70px;
+}
+
+.HOMEPAGE .somos-movidos-por {
+  position: absolute;
+  width: 536px;
+  top: 718px;
+  left: 198px;
+  font-family: "Anonymous Pro", Helvetica;
+  font-weight: 400;
+  color: #ff004d;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HOMEPAGE .group {
+  position: absolute;
+  width: 254px;
+  height: 83px;
+  top: 872px;
+  left: 330px;
+}
+
+.HOMEPAGE .cupcake-icon {
+  position: absolute;
+  width: 79px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.HOMEPAGE .text-wrapper-4 {
+  position: absolute;
+  width: 266px;
+  top: 5px;
+  left: 79px;
+  font-family: "Adamina", Helvetica;
+  font-weight: 400;
+  color: #ff004d;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HOMEPAGE .button {
+  left: 18vw; /* Posicionamento em relação à largura da viewport */
+  width: 15vw; /* Largura em relação à largura da viewport */
+  height: 2.8vw; /* Altura em relação à largura da viewport */
+}
+
+.HOMEPAGE .button-2 {
+  left: 699px;
+  position: absolute;
+  width: 305px;
+  height: 56px;
+  top: 1002px;
+  object-fit: cover;
+}
+
+.HOMEPAGE .button-3 {
+  left: 1055px;
+  position: absolute;
+  width: 305px;
+  height: 56px;
+  top: 1002px;
+  object-fit: cover;
+}
+
+.HOMEPAGE .button-4 {
+  left: 1410px;
+  position: absolute;
+  width: 305px;
+  height: 56px;
+  top: 1002px;
+  object-fit: cover;
+}
+
+.HOMEPAGE .login {
+  position: absolute;
+  width: 64px;
+  height: 66px;
+  top: 157px;
+  left: 1898px;
+}
+
+.HOMEPAGE .cart {
+  position: absolute;
+  width: 64px;
+  height: 66px;
+  top: 157px;
+  left: 1803px;
+}
+
+.HOMEPAGE .MENU {
+  position: absolute;
+  width: 48px;
+  height: 43px;
+  top: 64px;
+  left: 134px;
+}
+
+.HOMEPAGE .eventos-corp {
+  position: absolute;
+  width: 170px;
+  height: 44px;
+  top: 1012px;
+  left: 411px;
+}
+
+.HOMEPAGE .delivery {
+  position: absolute;
+  width: 113px;
+  height: 43px;
+  top: 1012px;
+  left: 795px;
+}
+
+.HOMEPAGE .FA-qs {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  top: 1012px;
+  left: 1174px;
+}
+
+.HOMEPAGE .contato {
+  position: absolute;
+  width: 113px;
+  height: 36px;
+  top: 1012px;
+  left: 1506px;
+}

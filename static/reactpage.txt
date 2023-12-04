@@ -1,0 +1,62 @@
+import React from "react";
+import { Cart1 } from "./Cart1";
+import { Contato } from "./Contato";
+import { Delivery } from "./Delivery";
+import { Empresa } from "./Empresa";
+import { EventosCorp } from "./EventosCorp";
+import { FaQs } from "./FaQs";
+import { Group } from "./Group";
+import { Login1 } from "./Login1";
+import { Logo } from "./Logo";
+import { Menu } from "./Menu";
+import { Shop } from "./Shop";
+import { Sobre } from "./Sobre";
+import "./style.css";
+
+export const Homepage = () => {
+  return (
+    <div className="HOMEPAGE">
+      <div className="overlap-group-wrapper">
+        <div className="overlap-group">
+          <img
+            className="abstract-empty"
+            alt="Abstract empty"
+            src="abstract-empty-smooth-light-pink-studio-room-background-use-as-montage-product-display-banner-template-1.png"
+          />
+          <img className="bg" alt="Bg" src="bg-1.png" />
+          <div className="rectangle" />
+          <img className="line" alt="Line" src="line-1.svg" />
+          <img className="img" alt="Line" src="line-2.svg" />
+          <Logo className="logo-1" />
+          <Logo className="logo-instance" />
+          <Logo className="logo-1-instance" />
+          <Sobre className="SOBRE-instance" />
+          <Shop className="SHOP-instance" />
+          <Empresa className="EMPRESA-instance" />
+          <p className="div">COMPRE 2 DÚZIAS DE CUPCAKES, GANHE 1 DÚZIA DE GRAÇA</p>
+          <img className="search" alt="Search" src="search-1.png" />
+          <div className="text-wrapper-2">Jaber</div>
+          <div className="text-wrapper-3">Café</div>
+          <div className="rectangle-2" />
+          <p className="somos-movidos-por">
+            Somos movidos por amar o que fazemos <br />e o que fazemos todos os dias.
+          </p>
+          <Group className="group-13" />
+          <img className="button" alt="Button" src="button-1.png" />
+          <img className="button-2" alt="Button" src="button-2.png" />
+          <img className="button-3" alt="Button" src="button-3.png" />
+          <img className="button-4" alt="Button" src="button-4.png" />
+          <Login1 className="login" />
+          <Cart1 className="cart" />
+          <Menu className="MENU-instance" />
+          <EventosCorp className="eventos-corp" />
+          <Delivery className="delivery-instance" />
+          <FaQs className="FA-qs" />
+          <Contato className="contato-instance" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default reactpage;
